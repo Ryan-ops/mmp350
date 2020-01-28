@@ -1,0 +1,28 @@
+body{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,115,254,0.7539390756302521) 35%, rgba(0,212,255,1) 100%);
+
+
+color: white;
+font-size: 20px;
+font-family: Helvetica;
+
+}
+
+a{
+	color:green;
+	font-size: 2rem;
+	padding: 0.25em;
+	transition:background-color: #F52A1D;
+}
+a:hover{
+	background-color: #F52A1D;
+}
+
+ul{
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
