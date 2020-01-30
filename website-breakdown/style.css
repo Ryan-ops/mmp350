@@ -1,0 +1,22 @@
+body{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,115,254,0.7539390756302521) 34%, rgba(0,212,255,1) 100%);
+color: yellow;
+}
+
+img{
+	max-width: 100%;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid ##154360;
+}
+h1{
+	text-align: center;
+}
+
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+}
