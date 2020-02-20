@@ -1,0 +1,13 @@
+  
+.post-text {
+	font-size: 1.25em;
+    line-height: 1.5;
+}
+
+.post-info {
+	color: gray;
+}
+
+.post-author {
+	color: darkblue;
+}
