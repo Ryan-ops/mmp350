@@ -1,13 +1,20 @@
-  
-.post-text {
-	font-size: 1.25em;
-    line-height: 1.5;
+/* 
+font-family: 'Yeon Sung', ;
+font-family: 'Lacquer', ;
+*/
+
+
+h1,
+input,
+button {
+	font-family: 'Lacquer';
 }
 
-.post-info {
+.post,
+a {
+	font-family: 'Yeon Sung';
+}
+
+.post-date {
 	color: gray;
-}
-
-.post-author {
-	color: darkblue;
 }

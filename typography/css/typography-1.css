@@ -1,54 +1,22 @@
 /*font paring 1
-font-family: 'Krona One', sans-serif;
-font-family: 'Indie Flower', cursive;
-
+font-family: 'Trade Winds', ;
+font-family: 'Simonetta', ;
 
 */
 
 
 
-.post, input{
-    font-family: 'Krona One', sans-serif;
-
-
-
-}
-
-
 h1,
-button,
-a,
-.post-date {
-	font-family: 'Indie Flower', cursive; 
-}
-
-
+input,
 button {
-	font-size: 1.125em;
+	font-family: 'Trade Winds';
 }
 
-
-.post {
-	line-height: 1.2;
+.post,
+a {
+	font-family: 'Simonetta';
 }
 
-.post-text {
-	font-size: 1.25em;
-}
-
-.post-info {
+.post-date {
 	color: gray;
 }
-
-.post-author {
-	/*color: darkblue;*/
-}
-
-.post-author strong {
-	color: darkblue;
-}
-
-.post-date {
-	font-size: 0.5em;
-}
-

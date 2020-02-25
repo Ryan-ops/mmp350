@@ -1,0 +1,20 @@
+/* 
+font-family: 'Anton', ;
+font-family: 'EB Garamond', ;
+*/
+
+
+h1,
+input,
+button {
+	font-family: 'Anton';
+}
+
+.post,
+a {
+	font-family: 'EB Garamond';
+}
+
+.post-date {
+	color: gray;
+}
