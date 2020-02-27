@@ -13,6 +13,12 @@ const userName = js.getEl("user-name");
 loginButton.onclick = function() {
 	fb.login(loginEmail.value, loginPassword.value);
 };
+//adds login for hitting 
+loginPassword.addEventListener('keyup',function () {
+    if (event.which == 13){
+        fb.login(loginEmail.value, loginPassword.value);
+    }
+});
 
 function onError(errorMessage) {
 	loginMessage.textContent = errorMessage;

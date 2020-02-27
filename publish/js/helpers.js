@@ -1,3 +1,5 @@
+/* firebase helper functions for mmp350 */
+
 const fb = {}; // firebase helpers
 
 /* creates a user */
@@ -92,7 +94,7 @@ fb.publishPost = function(uid, text) {
 		text: text
 	}
 
-	const tags = postText.value.match(/#[a-z0-9]+/gi);
+	const tags = text.match(/#[a-z0-9]+/gi);
 	if (tags) {
 		post.tags = {};
 		for (let i = 0; i < tags.length; i++) {
