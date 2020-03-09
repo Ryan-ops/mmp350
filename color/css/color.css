@@ -21,37 +21,37 @@
 
 :root {
 	/* complementary */
-	--main-hue: 60;
+	--main-hue: 241;
 	--accent-one: calc(var(--main-hue) + 180);
 
-	--main-color: hsl(var(--main-hue), 100%, 70%);
-	--accent-color: hsl(var(--accent-one), 92%, 60%);
-	--placeholder-color: hsl(var(--accent-one), 60%, 40%);
+	--main-color: hsl(var(--main-hue), 100%, 50%);
+	--accent-color: hsl(var(--accent-one), 100%, 50%);
+	--placeholder-color: hsl(var(--accent-one), 100%, 50%);
 }
 
 
 :root {
 	/* analagous color scheme */
-	--main-hue: 23;
+	--main-hue: 174;
 	--offset: 45;
 	--accent-one: calc(var(--main-hue) + var(--offset));
 	--accent-two: calc(var(--main-hue) - var(--offset));
 
-	--main-color: hsl(var(--main-hue), 55%, 50%);
-	--accent-color: hsl(var(--accent-one), 76%, 50%);
-	--placeholder-color: hsl(var(--accent-two), 55%, 50%);
+	--main-color: hsl(var(--main-hue), 92%, 50%);
+	--accent-color: hsl(var(--accent-one), 92%, 50%);
+	--placeholder-color: hsl(var(--accent-two), 92%, 50%);
 }
 
 
 :root {
 	/* triadic color scheme */
-	--main-hue: 136;
+	--main-hue: 157;
 	--accent-one: calc(var(--main-hue) + 120);
 	--accent-two: calc(var(--main-hue) - 120);
 
-	--main-color: hsl(var(--main-hue), 100%, 50%);
-	--accent-color: hsl(var(--accent-one), 100%, 50%);
-	--placeholder-color: hsl(var(--accent-two), 100%, 50%);
+	--main-color: hsl(var(--main-hue), 87%, 50%);
+	--accent-color: hsl(var(--accent-one), 87%, 50%);
+	--placeholder-color: hsl(var(--accent-two), 87%, 50%);
 }
 
 button, input, textarea {
