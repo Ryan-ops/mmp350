@@ -1,27 +1,11 @@
 /* custom properties */
 
 /* root is the top most element of the html page */
-:root {
-	/* monochomatic green color scheme */
-/*
-	--main-color:  #0066FF;
-	--accent-color:  #00d1b8;
-	--placeholder-color:  #00d1b8;
-*/
-}
 
-:root {
-	/* complementary color scheme */
-/*
-	--main-color: #ffff66;
-	--accent-color:  #9e3df7;
-	--placeholder-color: var(--accent-color);
-*/
-}
 
 :root {
 	/* complementary */
-	--main-hue: 241;
+	--main-hue: 60;
 	--accent-one: calc(var(--main-hue) + 180);
 
 	--main-color: hsl(var(--main-hue), 100%, 50%);
@@ -32,14 +16,14 @@
 
 :root {
 	/* analagous color scheme */
-	--main-hue: 174;
-	--offset: 45;
+	--main-hue: 107;
+/*	--offset: 45;*/
 	--accent-one: calc(var(--main-hue) + var(--offset));
 	--accent-two: calc(var(--main-hue) - var(--offset));
 
-	--main-color: hsl(var(--main-hue), 92%, 50%);
-	--accent-color: hsl(var(--accent-one), 92%, 50%);
-	--placeholder-color: hsl(var(--accent-two), 92%, 50%);
+	--main-color: hsl(var(--main-hue), 100%, 50%);
+	--accent-color: hsl(var(--accent-one), 100%, 50%);
+	--placeholder-color: hsl(var(--accent-two), 100%, 50%);
 }
 
 
