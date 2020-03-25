@@ -1,11 +1,12 @@
-*{
-    box-sizing: border-box;
 
-}
 
 #container {
     max-width: 800px;
     margin: 0 auto;
 
 
+}
+
+.auth #login{
+    display: none;
 }
