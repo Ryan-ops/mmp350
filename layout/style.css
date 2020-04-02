@@ -1,0 +1,19 @@
+/* typographic pairing 1 */
+
+@import url('https://fonts.googleapis.com/css?family=Simonetta|Trade+Winds&display=swap');
+/*typographic paring 2*/
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Yeon+Sung&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Love+Ya+Like+A+Sister|Noto+Serif+TC&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Itim|Love+Ya+Like+A+Sister|Noto+Serif+TC&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Noto+Serif+TC&display=swap');
+
+@import "css/main.css";
+@import "css/typography-1.css";
+@import "css/layout-3.css";
+@import "css/publish.css";
+@import "css/post.css";
+@import "css/color.css";
+@import "css/profile.css";

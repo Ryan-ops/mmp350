@@ -1,0 +1,67 @@
+/* custom properties */
+
+/* root is the top most element of the html page */
+
+
+:root {
+	/* complementary */
+	--main-hue: 60;
+	--accent-one: calc(var(--main-hue) + 180);
+
+	--main-color: hsl(var(--main-hue), 100%, 50%);
+	--accent-color: hsl(var(--accent-one), 100%, 50%);
+	--placeholder-color: hsl(var(--accent-one), 100%, 50%);
+}
+
+
+:root {
+	/* analagous color scheme */
+	--main-hue: 107;
+/*	--offset: 45;*/
+	--accent-one: calc(var(--main-hue) + var(--offset));
+	--accent-two: calc(var(--main-hue) - var(--offset));
+
+	--main-color: hsl(var(--main-hue), 100%, 50%);
+	--accent-color: hsl(var(--accent-one), 100%, 50%);
+	--placeholder-color: hsl(var(--accent-two), 100%, 50%);
+}
+
+
+:root {
+	/* triadic color scheme */
+	--main-hue: 157;
+	--accent-one: calc(var(--main-hue) + 120);
+	--accent-two: calc(var(--main-hue) - 120);
+
+	--main-color: hsl(var(--main-hue), 87%, 50%);
+	--accent-color: hsl(var(--accent-one), 87%, 50%);
+	--placeholder-color: hsl(var(--accent-two), 87%, 50%);
+}
+
+button, input, textarea {
+	background-color: var(--main-color);
+	border-color: var(--accent-color);
+	color: var(--placeholder-color);
+}
+
+button::placeholder, input::placeholder, textarea::placeholder {
+	color: var(--accent-color);
+}
+
+a {
+	color: var(--accent-color);
+}
+
+a:hover {
+	color: var(--main-color);
+}
+
+.post {
+	border-color: var(--accent-color);
+    color: var(--accent-color);
+    background-color: var(--main-color);
+}
+
+#title {
+	color: var(--accent-color);
+}

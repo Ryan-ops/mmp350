@@ -1,0 +1,56 @@
+/*font paring 1
+font-family: 'Trade Winds', ;
+font-family: 'Simonetta', ;
+
+*/
+
+
+
+.post, input{
+    font-family: 'Simonetta' ;
+
+
+
+}
+
+
+h1,
+button,
+a,
+.post-date {
+	font-family: 'Trade Winds', ;
+}
+
+
+button {
+	font-size: 1.125em;
+}
+
+
+.post {
+    
+	line-height: 1.2;
+}
+
+.post-text {
+    font-family: 'Simonetta', ;
+
+	font-size: 1.25em;
+}
+
+.post-info {
+	color: gray;
+}
+
+.post-author {
+	/*color: darkblue;*/
+}
+
+.post-author strong {
+	color: darkblue;
+}
+
+.post-date {
+	font-size: 0.5em;
+}
+
