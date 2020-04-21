@@ -1,0 +1,38 @@
+.post{
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    padding: 1em;
+    margin-top: 1em; 
+    position: relative;
+    min-height: 120px;
+}
+
+.post-text {
+   
+    font-family: 'Itim';
+
+}
+
+.post-author {
+    font-family: 'Amatic SC';
+    
+
+}
+
+.post-date {
+    font-family: 'Love Ya Like A Sister';
+	
+
+}
+
+
+.post-profile-image {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 100px;
+
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
