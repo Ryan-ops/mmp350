@@ -18,7 +18,7 @@ function createPost(postData, userInfo, postId, postDate, postAuhtor){
     const date = js.createEl('div', 'post-date', js.formatDate(postData.date));
     
     postInfo.appendChild(date);
-    
+   
     
     //add profile picture
     const userImage = js.createEl('img',  'post-profile-image');
