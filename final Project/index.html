@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<title>Welcome to BarçaBlog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+	
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-storage.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyD7biJDPGVAZIjs26hetYh0NKwwGmUrbWs",
+			authDomain: "mmp350-s20.firebaseapp.com",
+			databaseURL: "https://mmp350-s20.firebaseio.com",
+			projectId: "mmp350-s20",
+			storageBucket: "mmp350-s20.appspot.com",
+			messagingSenderId: "598284319367",
+			appId: "1:598284319367:web:8667f598c0ff5e83fd9622",
+			measurementId: "G-4S9W1F1KDL"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+	</script>
+
+</head>
+<body>
+<div id="container">
+    <div class="nav_bar">
+      
+       <div id="title">
+			<h1><a  href="index.html">BarçaBlog</a></h1>
+			<a href="users.html">View Site Users</a>
+			
+		</div>
+   	<div id="login">
+			<input id="login-email" type="text" placeholder="Email">
+			<input id="login-password" type="password" placeholder="Password">
+			
+			<button id="login-button">Login</button>
+			<button id="signup-button"><a href="create.html">SignUp</a></button>
+			
+			
+				
+
+		</div>
+   
+    
+       		   <div id="user-info">
+			
+			<a id="edit-profile-link">Edit Profile</a>
+			<button id="logout-button">Logout</button>
+		</div>
+    <p id="user-name"></p>
+    <p id="login-message"></p>
+
+    </div>
+    <div id="container2">
+        
+		
+	
+
+	
+		
+		<div id="publish-post">
+        <textarea id="publish-text" placeholder="Compose your post.."></textarea>
+        <input type="file" id="post-image-input">
+        <button id="publish-button">Publish</button>
+		    
+		    
+		</div>
+
+		<div id="posts">
+			<div class="post">
+				<div class="post-text"></div>
+				<div class="post-info">
+					<div class="post-author"></div>
+					<div class="post-date">on Monday, January 1, 1999</div>
+				</div>
+			</div>
+			
+			<div class="post">
+				<div class="post-text">I skate where the puck is going to be, not to where it has been.</div>
+				<div class="post-info">
+					<div class="post-author">by Wayne Gretzky</div>
+					<div class="post-date">on Monday, January 1, 1999</div>
+				</div>
+			</div>
+		</div>
+        
+    </div>
+    
+   
+		
+	</div>
+
+	
+
+	<script src="js/helpers.js"></script>
+	<script src="js/auth.js"></script>
+	<script src="js/publish.js"></script>
+	<script src="js/displaypost.js"></script>
+	<script>
+		fb.loadPosts();
+	</script>
+</body>
+</html>

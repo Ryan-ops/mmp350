@@ -1,0 +1,29 @@
+/* 
+font-family: 'Yeon Sung', ;
+font-family: 'Lacquer', ;
+*/
+
+
+h1{
+    font-family: 'Yeon Sung',;
+    
+}
+.post-text {
+    
+	font-size: 1.25em;
+    line-height: 1.5;
+}
+
+post{
+    
+    
+}
+
+.post-info {
+    font-family: 'Lacquer', ;
+	color: gray;
+}
+
+.post-author {
+	color: darkblue;
+}
