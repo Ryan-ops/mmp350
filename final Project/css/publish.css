@@ -9,5 +9,6 @@ textarea {
 
 #publish-post  {
 	text-align:right;
+    display: flex;
 }
 
